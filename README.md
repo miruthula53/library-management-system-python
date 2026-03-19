@@ -36,4 +36,4 @@ This is an improved version of my previous Library Management System. The earlie
 2. Install dependency:
    ```bash
    pip install mysql-connector-python
-3. Run python src/library.py
+3. Run library.py
