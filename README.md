@@ -1,15 +1,24 @@
-# Library Management System (Python OOP)
+# Library Management System (Python + MySQL)
 
-**Technologies:** Python, Object-Oriented Programming (OOP)  
-**Project Type:** Console-based, interactive, menu-driven application  
+## Features
+- Add / Remove / Search books
+- Issue & return system
+- Due date tracking
+- Fine calculation for late returns
+- MySQL database integration
+- Borrowing history tracking
 
-A Python console application to manage a small library. Users can view all books, check available books, borrow or return books, with real-time updates on availability.
+## Tech Stack
+- Python
+- MySQL
+- mysql-connector-python
 
-**Features:**
-- Display all books / available books
-- Borrow and return books
-- Menu-driven interface with graceful exit
+## How to Run
+1. Install requirements
+2. Setup MySQL database
+3. Run main.py
 
-**How to Run:**  
-```bash
-python main.py
+## Improvements (v2 over v1)
+- Added database persistence (previous version was file-based)
+- Improved data consistency with SQL tables
+- Added fine calculation logic
