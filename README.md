@@ -1,24 +1,38 @@
 # Library Management System (Python + MySQL)
 
+## Description
+This is an improved version of my previous Library Management System. The earlier version was file-based, and this upgrade introduces MySQL integration along with better data handling and additional features.
+
+---
+
 ## Features
-- Add / Remove / Search books
-- Issue & return system
-- Due date tracking
-- Fine calculation for late returns
-- MySQL database integration
-- Borrowing history tracking
+- Add, remove, and search books  
+- Issue and return system  
+- Due date tracking  
+- Fine calculation for late returns  
+- MySQL database integration  
+- Borrowing history tracking  
+
+---
 
 ## Tech Stack
-- Python
-- MySQL
-- mysql-connector-python
+- Python  
+- MySQL  
+- mysql-connector-python  
+
+---
+
+## Improvements Over Previous Version
+- Migrated from file-based storage to MySQL database  
+- Improved data consistency using relational tables  
+- Added fine calculation logic  
+- Added borrowing history tracking  
+- Improved scalability and structure  
+
+---
 
 ## How to Run
-1. Install requirements
-2. Setup MySQL database
-3. Run main.py
-
-## Improvements (v2 over v1)
-- Added database persistence (previous version was file-based)
-- Improved data consistency with SQL tables
-- Added fine calculation logic
+1. Import `library_db.sql` into MySQL Workbench  
+2. Install dependency:
+   ```bash
+   pip install mysql-connector-python
