@@ -59,16 +59,12 @@ The system allows users to:
 - Book borrowing comparison
 - Filters by category and users
 
----
-
 ## Power BI Insights
 The dashboard provides:
 - Visual summary of borrowing trends
 - Category-wise distribution
 - User activity analysis
 - Comparative book popularity
-
----
 
 ## How to Run the Project
 
@@ -79,7 +75,10 @@ The dashboard provides:
 ```bash
 pip install mysql-connector-python
 
-### 3. Run the python file:
-   python library.py
-### 4. Open the Power BI Dashboard
-   Open Library_dashboard.pbix in Power BI Desktop   
+### 3. Run the Python File
+```bash
+python library.py
+
+### 4. Open Power BI Dashboard
+```bash
+Open powerbi_dashboard.pbix using Power BI Desktop
