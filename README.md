@@ -81,4 +81,4 @@ python library.py
 
 ### 4. Open Power BI Dashboard
 ```bash
-Open powerbi_dashboard.pbix using Power BI Desktop
+Open Library_dashboard.pbix using Power BI Desktop
