@@ -1,7 +1,7 @@
 # Data-Driven Library Management and Analytics System 
 
 ## Project Overview
-This project is a **Library Management System** built using **Python and MySQL**, enhanced with **data analysis features** and a **Power BI dashboard** for visualization.
+This project is a **Data-Driven Library Management and Analytics System** built using **Python, MySQL and Power BI**, enhanced with **data analysis features** and a **Power BI dashboard** for visualization.
 
 The system allows users to:
 - Borrow and return books
